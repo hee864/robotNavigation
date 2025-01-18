@@ -13,7 +13,7 @@ import os
 from datetime import datetime
 
 # 설정 파일 경로
-config_path = 'configs/config_track2.json'
+config_path = 'configs/config_track1.json'
 
 def check_collision(car, obstacle_map, track):
     """

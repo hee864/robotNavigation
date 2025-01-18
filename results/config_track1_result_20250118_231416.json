@@ -1,0 +1,32 @@
+{
+    "configuration": {
+        "map_name": "track1.png",
+        "threshold": 128,
+        "obstacle_above_threshold": true,
+        "start_point": {
+            "x": 234,
+            "y": 445
+        },
+        "goal_point": {
+            "x": 305,
+            "y": 451
+        },
+        "goal_radius": 17.0,
+        "vehicle": {
+            "width": 8.0,
+            "length": 11.0,
+            "yaw": -3.141592653589793
+        }
+    },
+    "simulation_result": {
+        "collision_occurred": true,
+        "reached_goal": false,
+        "simulation_time": 3.600000000000002,
+        "real_execution_time": 3.69977,
+        "progress_percentage": 5.156160341011558,
+        "collision_point": {
+            "x": 177.47826363051567,
+            "y": 510.08662011035887
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "map_name": "track1.png",
+    "threshold": 128,
+    "obstacle_above_threshold": true,
+    "start_point": {
+        "x": 234,
+        "y": 445
+    },
+    "goal_point": {
+        "x": 305,
+        "y": 451
+    },
+    "goal_radius": 17.0,
+    "vehicle": {
+        "width": 8.0,
+        "length": 11.0,
+        "yaw": -3.141592653589793
+    }
+}

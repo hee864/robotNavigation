@@ -1,4 +1,4 @@
-# 🚀 PracticeCV-students: Autonomous Navigation Project
+# 🚀  Autonomous Navigation Project
 
 ## 🔹 프로젝트 개요
 이 프로젝트는 **Stanley Controller 및 A* 알고리즘을 활용한 자율 주행 로봇 제어 및 경로 계획 시스템**입니다.  

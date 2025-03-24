@@ -21,7 +21,13 @@ parser = argparse.ArgumentParser()
 parser.add_argument("config_path", type=str, help="Path to config file")
 args = parser.parse_args()
 config_path = args.config_path
-
+if check_escape_pressed():
+    print("\n❌ ESC 키 입력됨. 중단 전 상태 저장 중...")
+    real_time = (datetime.now() - start_time).total_seconds()
+    closest_idx = visualizer.find_closest_path_point((robot.x, robot.y), path)
+    progress = (closest_idx / (len(path) - 1)) * 100
+    save_simulation_results(config_path, False, False, simulation_time, progress, real_time)
+    exit(0)
 
 def check_collision(car, obstacle_map, track):
     """

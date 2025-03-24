@@ -1,0 +1,17 @@
+# Python 캐시 및 환경 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.conda/
+.venv/
+.env
+
+# 자동 생성 결과물
+logs/
+results/
+
+# OS 또는 IDE 관련 파일
+.DS_Store
+Thumbs.db
+*.swp

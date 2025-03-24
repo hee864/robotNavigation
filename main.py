@@ -13,7 +13,15 @@ import os
 from datetime import datetime
 
 # 설정 파일 경로
-config_path = 'configs/config_track1.json'
+# config_path = 'configs/config_track1.json'
+#shell script 자동화
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("config_path", type=str, help="Path to config file")
+args = parser.parse_args()
+config_path = args.config_path
+
 
 def check_collision(car, obstacle_map, track):
     """
